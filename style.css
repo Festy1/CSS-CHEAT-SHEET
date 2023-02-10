@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(126, 207, 207);
+    padding: 0 50px;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px 0 200px 0;
+    justify-content: space-between;
+    border: 3px solid white;
+    background-color: rgb(181, 240, 242);
+    box-shadow: 5px 5px 5px 5px rgb(18, 132, 136);
+    
+  }
+
+thead {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    margin: 50px 0 200px 0;
+    justify-content: space-between;
+    border: 3px solid white;
+    background-color: rgb(181, 240, 242);
+    
+
+}
+
+
+
+.heading {
+    line-height: 50px;
+    
+}
+
+.topic {
+    font-weight: bold;
+}
+
+ th, td { 
+    border:1px solid white;
+    max-width: 100px;
+}
+
+td {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 20px;
+}
+
+tr {
+    justify-content: space-evenly;
+}
